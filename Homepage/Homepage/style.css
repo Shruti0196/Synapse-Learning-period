@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    
+}
+
+nav{
+    height: 50px;
+}
+.first{
+    margin-top: 350px;
+}
+
+.banner{
+    background-image: url(/Homepage/media/Homepage.png);
+    height: 50vw;
+    width: 100%;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position-x: top center;
+    background-attachment: fixed;
+    background-size: 104%;
+    
+}
+nav{
+    background:linear-gradient(to right, #F80040,#150941);
+}
+nav{
+    background-attachment: fixed;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+ a,nav a{
+    float: left;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 20px;
+    background:linear-gradient(to right, #F80040,#150941);
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
+    
+}
+p{
+    font-size: 20px;
+}
+#a7:hover{
+    color: black;
+}
+#a3:hover{
+    color: black;
+}
+#a2:hover{
+    color: grey;
+}
+#a4:hover{
+    color: grey;
+}
+#a5:hover{
+    color: black;
+}
+#a6:hover{
+    color: grey;
+}
+#a1:hover{
+    color: black;
+}
+.footer{
+    background-color: rgb(120, 133, 120);
+    color: white;
+    height: 400px;
+    display: absolute;
+    width: 100%;
+}
+.footer-section links{
+    width: 100%;
+}
+a{
+    background-color: green;
+}
+.footer .footer-bottom{
+    background: rgb(123, 189, 123);
+    color: rgb(35, 146, 35);
+    height: 50px;
+    text-align: center;
+    position:sticky;
+
+  
+    
+}
+
+h1{
+    font-size: 60px;
+    color: #f1003cf6;
+    text-align: center;
+    
+}
+
+.card1 {
+    margin-top: 15%;
+  
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+  
+  .card2 {
+    
+    width: 400px;
+    
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    margin-right: 80px;
+    height: 500px;
+  }
+  .prizes{
+      display: flex;
+    flex-direction: row;
+   
+  }
+.item1 { grid-area: item1; 
+            background-image:url("/Homepage/media/devfolio.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+    ;}
+.item2 { grid-area: item2;
+    background-image:url("/Homepage/media/coding.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+.item3 { grid-area: item3;
+    background-image:url("/Homepage/media/mat.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+.item4 { grid-area: item4;
+    background-image:url("/Homepage/media/geeks.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+
+
+.grid-container {
+  display: grid;
+  
+  grid-template-areas:
+    'item1 item1 item1 item1'
+    'item2 item2 item3 item3'
+    'item4 item4 item4 item4';
+  grid-gap: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  height: 430px;
+  width: 1000px;
+  margin-left: 250px;
+}
+
+.grid-container >div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.footer{
+    background: rgb(78, 78, 78);
+    color:white;
+    height: 300px;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer .footerdata .footersection{
+    flex: 1;
+    background-color:#150941;
+    border: 0px  column solid white;
+   padding: 5px;
+ 
+   font-size:20px;
+
+}
+
+.footer .footerdata h1{
+    color: white;
+}
+
+.footersection a:hover{
+    color: black;
+}
+.footer .footerbottom{
+    background: rgb(51, 51, 51);
+    color: honeydew;
+    height: 50px;
+    
+    bottom: 0px;
+    left: 0px;
+    padding-top: 1%;
+    position: bottom;
+}
+.footersection h1{
+    background: #150941; 
+  
+}
+
+.footersection a{
+    background: #150941;
+    /* width: 100%; */
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    
+    padding: 4px;}
+
+.footer .footerbottom{
+    text-align: center;
+}
